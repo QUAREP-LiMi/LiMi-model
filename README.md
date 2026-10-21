@@ -1,31 +1,21 @@
 <img align="right" src="https://github.com/WU-BIMAC/MicroMetaApp.github.io/blob/master/images/Nature%20Methods_COVER.png">
 
-The **4D<ins>N</ins>-<ins>B</ins>INA-<ins>O</ins>ME (NBO) Microscopy Metadata Specifications** was developed as part of a **global community initiative** including the **[4D Nucleome Imaging Working Group](https://www.4dnucleome.org/)**, **[BINA Quality Control and Data Management Working Group](https://www.bioimagingna.org/qc-dm-wg)** and **[QUAREP-LiMi](https://quarep.org/)**. 
+The **[Light-Microscopy (LiMi) Model](https://quarep.org/working-groups/wg-7-metadata/limi-model/)** of metadata specifications originally arose as a **global community initiative** led by the [4D Nucleome](https://www.4dnucleome.org/) Imaging Working Groug and the [BINA](https://www.bioimagingna.org/qc-dm-wg) Quality Control and Data Management Working Group and is now maintained and revised under the [governance](https://doi.org/10.5281/zenodo.20733501) of [QUAREP-LiMi](https://quarep.org/working-groups/wg-7-metadata/limi-model/).
  
-> **News!** The works of this **global community effort** resulted in multiple publications featured on a recent **Nature Methods FOCUS ISSUE** dedicated to **[Reporting and reproducibility in microscopy](https://www.nature.com/collections/djiciihhjh)**. 
+For more information about **LiMi-Model**, please read [Hammer et al., (2021) Nature Methods](https://doi.org/10.1038/s41592-021-01327-9), which was featured on the **Nature Methods FOCUS ISSUE** on [Reporting and reproducibility in microscopy](https://www.nature.com/collections/djiciihhjh). 
 
-> **News!** Specifically, for a thorought description of the **4DN-BINA-OME (NBO) Microscopy Metadata Specifications** consult our recent **[Nature Methods](https://doi.org/10.1038/s41592-021-01327-9)** and **[BioRxiv.org](https://doi.org/10.1101/2021.04.25.441198)** publications!
+> **Learn More!** If you are a newby and you want to learn more about the importannce of metadata and quality control to ensure reproducibility, quality and scientific value in light microscopy, please read [Huisman et al. (2021) ArXiv.org](https://arxiv.org/abs/1910.11370).
 
-> **Learn More!** If you are a newby and you want to learn more about the importannce of metadata and quality control to ensure full reproducibility, quality and scientific value in light microscopy, please take a look at our recently posted overview manuscript entitled **"A perspective on Microscopy Metadata: data provenance and quality control"**, which is available on [ArXiv.org](https://arxiv.org/abs/1910.11370).
-
-**Development is continuing!** Please contribute to the new V02-10 draft of the model. Click [**here**](Model/in%20progress/v02-10) for a shortcut to the model directory. To create an issue, click on "Issues" above, the "New Issue" button, and select whether you are submitting a proposed new feature/element or want to propose a change to elements of the current version of the model.
+> **Development is continuing!** Please contribute to the new V02-10 draft of the model. Click [**here**](Model/in%20progress/v02-10) for a shortcut to the model directory. To create an issue, click on "Issues" above, the "New Issue" button, and select whether you are submitting a proposed new feature/element or want to propose a change to elements of the current version of the model.
 ver
-# 4D Nucleome + Bioimaging North America Microscopy Metadata Tiered Specifications extending the OME Data Model
 
-Adequate record keeping is essential for most experiments as it is necessary in order to evaluate results, share data and allow experiments to be repeated. Keeping notes on microscopy experiments should be relatively unchallenging in this regard, as the microscope is a machine equipped with a limited number of known parts and settings.
+# What is the LiMi-Model?
 
-Metadata automatically recorded by microscopes from different companies vary widely and pose a substantial challenge for microscope users to create a good faith record of their work. Similarly, the complexity and aim of experiments using microscopes varies leading to different reporting requirements from the simple description of a sample to the need to document the complexities of sub-diffraction resolution imaging in living cells and beyond.
-
-In 2005 the Open Microscopy Environment (OME) initiative defined the OME data model "to serve as an informatics framework for imaging in biological microscopy experiments, including representation of acquisition parameters, annotations and image analysis results." (verbatim from: [Goldberg et al., 2005](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2005-6-5-r47)).
-The OME model forms the basis of the [BioFormats library](https://www.openmicroscopy.org/bio-formats/) and is implemented in the [OME-TIFF](https://docs.openmicroscopy.org/ome-model/6.0.0/index.html#ome-tiff) file format and in the [OMERO](https://www.openmicroscopy.org/omero/scientists/) image data repository.
-
-Despite the this very successful efforts, there remains a substantial gap between the OME data model and its wide adoption by the wide bio-imaging community as a bona fide Microscopy Data and Metadata Standard, dictating the set of metadata descriptors to be recorded or published with imaging datasets.
-
-Here we present the 4DN-BINA Microscopy Metadata (Figure 1) guidelines, which is a tiered system of guidelines (Figure 3) that was developed by the [4D Nucleome (4DN) initiative](https://www.4dnucleome.org/) Imaging Standards Working Group and by the [BINA Quality Control and Data Management Working Group](https://www.bioimagingna.org/qc-dm-wg) for documenting the provenance and the quality of microscopy image data. In particular the model describes metadata standards for capturing: 
+The [Light-Microscopy (LiMi) Model](https://quarep.org/working-groups/wg-7-metadata/limi-model/) (Figure 1) is a tiered system of specifications (Figure 3) that fullfills the requirements delineated in the Image Acquisition component of REMBI and captures: 
 
 1. MICROSCOPE HARDWARE Specifications
 2. IMAGE ACQUISITION Settings
-3. OPTICAL, EXCITATION POWER and WAVELENGTH, MECHANICAL and DETECTOR CALIBRATION Procedures
+3. CALIBRATION AND PERFORMANCE Procedures and metrics
 
 <p align="center">
   <img src="https://github.com/WU-BIMAC/NBOMicroscopyMetadataSpecs/blob/master/Graphics/Figure-1_v03_MM+model elements.png" title="Figure 1: Image Metadata versus Microscopy Metadata">
